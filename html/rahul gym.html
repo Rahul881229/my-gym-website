@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en"> <ul class="navbar">
+    <!-- <li><a href="#">home</a></li> -->
+    <!-- <li><a href="#">about us</a></li> -->
+    <!-- <li><a href="#">fitness calcutlator</a></li> -->
+    <!-- <li><a href="#">contact us</a> </li> -->
+
+</ul>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym web</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        font-size: 40px;
+        margin: 0px;
+        padding: 0px;
+        background: url(boy.jpg);
+        height: 1200px;
+    }
+    .left{
+        margin: 5px;
+        /* border: green solid 10px; */
+        width: 100px;
+        color: white;
+        position: absolute;
+        left: 12px;
+        padding: 20px 30px;
+        position: fixed;
+
+    }
+    .left img{
+        width: 100px;
+        /* filter: invert();{ to chnage the color of any picture} */
+    }
+    .mid{
+        display: block;
+        /* position: fixed; */
+        margin: 15px auto;
+        /* font-size:larger ; */
+        /* border: green solid 5px; */
+        color: red;
+        /* position: relative; */
+        width: 35%;
+ 
+    }
+    .right{
+        position: absolute;
+        right: 30px;
+        top: 10px;
+        display: inline-block;
+        margin: 10px;
+        /* border: pink solid 10px; */
+color: green;
+position: fixed;
+
+    }
+    .navbar li{
+        color: white;
+        text-align: start;
+        display: inline-block;
+        padding: 5px 5px;
+        font-size: 20px;
+         
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+    }
+    .navbar li a:hover, .navbar li a:active{
+        text-decoration: underline;
+        color: gray;
+    }
+    .btn{
+        padding: 10px 10px;
+        text-decoration: underline;
+        color: black;
+        background-color: azure;
+        border: 2px;
+        border-radius: 10px; 
+        font-size: 20px;
+        cursor: pointer;
+        margin: 20px;
+        
+
+    }
+    .btn:hover{
+        background-color: antiquewhite;
+    }
+    .search{
+        background-color: aliceblue;
+
+    }
+    .form-group{
+
+        margin: 20px;
+        /* border: 10px solid red; */
+        padding: 10px 10px;
+
+    }
+    .container{
+        /* border: 10px solid blue; */
+        margin: 20px 15px;
+        width: 40%;
+        padding: 70px ;
+
+    }
+    .heading{
+        color:gray;
+    }
+</style>
+<header
+class="header">
+<!-- left box for logo -->
+<div class="left">
+    <img src="rkimg.jpg" alt="">
+    <div> rahul fitness</div>
+</div>
+
+
+
+<!-- mid box for title -->
+<div class="mid">
+    <div 
+        <ul class="navbar";>
+            <li><a href="#" class="active"> home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">fitness calcutlator</a></li>
+            <li><a href="#">contact us</a> </li>
+    
+        </ul>
+    
+    
+
+</div>
+<!-- right box for search box -->
+<div class="right">
+    <div class="search">
+<input type=" text"  name="search" placeholder="search more">
+<a href=""> search here</a>
+    </div>
+<button class="btn"> call us now </button>
+<button class="btn"> email as </button>
+</div>
+</header> 
+    
+
+
+<body>
+    
+<div class="container">
+    <h2 class="heading"> welcome to our gym in jhumri telaiya</h2>
+    <form action="nonaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="entewr your age">
+
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="enter your address">
+        </div>
+            <div class="btn" placeholder="submit"> submit
+            </div>
+
+
+
+        
+
+    </form>
+
+</div>
+</body>
+</html>
